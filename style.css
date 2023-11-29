@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background: #161A30;
+    font-family: sans-serif;
+}
+div {
+  width: 250px;
+  height: 200px;
+  background: red;
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 8px;
+}
+span {
+  font-size: 5.4rem;
+  letter-spacing: 5px;
+  color: #F4F27E;
+}
+.d2:hover {
+  transition: transform 5s;
+  transform: rotate(360deg);
+}
+.d3:hover {
+  transition: transform 5s;
+  transform: rotateY(360deg);
+}
+.d2 {
+    margin-top: 60px;
+}
+.d3 {
+    margin-top: 60px;
+}
